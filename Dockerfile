@@ -1,5 +1,4 @@
-FROM centos
-MAINTAINER saurabhkr.student@gmail.com
+FROM ubuntu:latest
 RUN yum install -y httpd
 RUN yum install -y zip
 RUN yum install -y unzip
